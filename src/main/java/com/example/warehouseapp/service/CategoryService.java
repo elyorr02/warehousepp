@@ -33,17 +33,12 @@ public class CategoryService {
                 return new ApiResponse("Parent Category Not Found!",false);
             category.setParentCategory(categoryRepository.getById(categoryDTO.getParentCategoryId()));
         }
-
-
-
         Category save = categoryRepository.save(category);
         ResCategoryDTO resCategoryDTO = toResCat(save);
 
-
-
-
         return new ApiResponse("Saved", true,resCategoryDTO);
     }
+
 
     public ApiResponse delete(Integer id) {
         categoryRepository.deleteById(id);
