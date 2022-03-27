@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f4b5adb-9895-4012-83ae-19f797b2a317" name="Changes" comment="were house app" />
+    <list default="true" id="2f4b5adb-9895-4012-83ae-19f797b2a317" name="Changes" comment="werehouse app">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +137,7 @@
       <workItem from="1638452920138" duration="1938000" />
       <workItem from="1638623210756" duration="2912000" />
       <workItem from="1638885681665" duration="891000" />
-      <workItem from="1648404190669" duration="1827000" />
+      <workItem from="1648404190669" duration="2702000" />
     </task>
     <task id="LOCAL-00001" summary="were house app">
       <created>1648405894116</created>
@@ -144,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648405894116</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="werehouse app">
+      <created>1648406255063</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648406255064</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +173,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="were house app" />
-    <option name="LAST_COMMIT_MESSAGE" value="were house app" />
+    <MESSAGE value="werehouseapp" />
+    <MESSAGE value="werehouse app" />
+    <option name="LAST_COMMIT_MESSAGE" value="werehouse app" />
   </component>
 </project>
