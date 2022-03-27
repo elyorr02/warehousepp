@@ -24,11 +24,6 @@ public class CategoryService {
         if (existsByName){
             return new ApiResponse("This Category already exist!!", false);
         }
-
-
-
-
-
         Category category = new Category();
         category.setName(categoryDTO.getName());
 
@@ -38,6 +33,8 @@ public class CategoryService {
                 return new ApiResponse("Parent Category Not Found!",false);
             category.setParentCategory(categoryRepository.getById(categoryDTO.getParentCategoryId()));
         }
+
+
 
         Category save = categoryRepository.save(category);
         ResCategoryDTO resCategoryDTO = toResCat(save);
